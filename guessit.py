@@ -11,36 +11,36 @@ def slow_print(text):
 
 num = random.randint(1, 100)
 attemps = 0
-slow_print('Добро пожаловать в игру!')
+slow_print('Welcome to the game!')
 time.sleep(1)
 tprint('GUESS IT')
 time.sleep(2)
 while True:
-    guess = input('Введите число от 1 до 100:')
+    guess = input('Enter a number between 1 and 100:')
     attemps += 1
-    if not guess.isdigit(): print("Введи ЦИФРЫ, бро"); continue
+    if not guess.isdigit(): print("Enter the NUMBERS, bro"); continue
     i = int(guess)
     if i < 1 or i > 100: 
-        slow_print('Число должно быть в диапазоне от 1 до 100!'); continue
+        slow_print('The number must be between 1 and 100!'); continue
     if i == num:
         if attemps == 1:
-            slow_print(f'WTF! Ты че Эйнштейн? Угадать за {attemps} попытку даже мне не по зубам')
+            slow_print(f'WTF! Are you Einstein? Even I can't guess in {attemps} attempts.')
         elif attemps <=7:
-            slow_print(f'Браво босс!{attemps} попыток достойный результат.')
+            slow_print(f'Bravo boss! {attempts} attempts, a worthy result.')
         elif attemps <=10:
-            slow_print(f'Более менее, {attemps} попыток,но все же поздравлю!')
+            slow_print(f'More or less, {attemps} attempts, but still congratulations!')
         elif attemps >= 11:
-            slow_print('Эй чудак! Ты когда на IQ проверялся?') 
+            slow_print('Hey, dude! When did you get your IQ tested?') 
             time.sleep(1)
-            slow_print('Это район для крутых, проваливай!') 
+            slow_print('This is a cool neighborhood, get lost!') 
             time.sleep(1)
-            slow_print(f'{attemps} попыток позор!')
+            slow_print(f'{attemps} attempts, shame!')
             time.sleep(1)
-            slow_print('Звоним твоей маме!')
+            slow_print('We're calling your mom!')
             time.sleep(1)
             tprint('BEEP')
             time.sleep(1)
-            slow_print('Твоя мама: Да вы что серьезно? Я сейчас же откажусь от него')
+            slow_print('Your mom: Are you serious? I'll give him up right now.')
             time.sleep(1)
             tprint('HAHAHAHA')
             time.sleep(1)
@@ -48,11 +48,12 @@ while True:
 
         break
     elif i < num:
-        slow_print('Число больше!')
+        slow_print('The number is higher!')
     elif i > num:
-        slow_print('Число меньше!')
+        slow_print('The number is less!')
 
     
     
     
+
 
