@@ -12,8 +12,8 @@ def record_check():
         return int(content) if content else 100
     
 def record_mod(new_record):
-    with open ('record.txt', 'w') as f:
-       f.write(str(new_record))
+    with open ('record.txt', 'a') as f:
+       f.write(str(new_record) + '\n') 
 
 def record_guess(attempts, current_record, lang):
     attempts = int(attempts)
