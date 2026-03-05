@@ -1,6 +1,7 @@
 Translations = { 
     'ru': {
-        'start' : 'Добро пожаловать в игру!',
+        'name' : 'Введите ваше имя: ',
+        'start' : 'Добро пожаловать в игру, {}!',
         'record_status' : 'Текущий рекорд, который нужно побить: {} попыток.',
         'guess' : 'Введите число от 1 до 100:', 
         'range' : 'Число должно быть в диапазонеот 1 до 100!',
@@ -23,7 +24,8 @@ Translations = {
         
         },
     'en': {
-        'start' : 'Welcome to the game!',
+        'name' : 'Enter your name:',
+        'start' : 'Welcome to the game, {}!',
         'record_status' : 'Current record to beat: {} attempts.',
         'guess' : 'Enter a number between 1 and 100: ',
         'range' : 'The number must be between 1 and 100!',
