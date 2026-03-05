@@ -1,0 +1,48 @@
+Translations = { 
+    'ru': {
+        'start' : 'Добро пожаловать в игру!',
+        'record_status' : 'Текущий рекорд, который нужно побить: {} попыток.',
+        'guess' : 'Введите число от 1 до 100:', 
+        'range' : 'Число должно быть в диапазонеот 1 до 100!',
+        'higher' : 'Число больше',
+        'less' : 'Число меньше!',
+        'numbers_only' : 'Введи ЦИФРЫ, бро.',
+        'exit' : 'Нажмите Enter для выхода...',
+        'attempts_1' : 'WTF! Ты чё Эпштейн? {} попыток даже мне не по зубам.',
+        'attempts_7' : 'Браво босс! {} попыток, достойный результат.',
+        'attempts_10' : 'Более менее, {} попыток, но все равно поздравляю.',
+        'troll_start' : 'Эй чувак! Ты когда тест на IQ проходил ',
+        'hood_troll' : 'Это район для крутых, проваливай!',
+        'shame' : '{} попыток, позор!',
+        'calling' : 'Звоним твоей маме!',
+        'mom_answer' : 'Твоя мама: Вы серьезно? Я сейчас откажусь от него.',
+        'quote' : 'You can always be thinner. Look Better. - P.Bateman',
+        'look' : 'LOOK BETTER',
+        'new_record' : 'Отлично, твой новый рекорд на {} попыток лучше.',
+        'bad_record' : 'Бро, в прошлый раз ты был лучше. Твой лучший результат был {}.'
+        
+        },
+    'en': {
+        'start' : 'Welcome to the game!',
+        'record_status' : 'Current record to beat: {} attempts.',
+        'guess' : 'Enter a number between 1 and 100: ',
+        'range' : 'The number must be between 1 and 100!',
+        'higher ': 'The number is higher!',
+        'less' : 'The number is less!',
+        'numbers_only' : 'Enter the NUMBERS, bro.',
+        'exit' : 'Press Enter to exit...',
+        'attempts_1' : 'WTF! Are you Einstein? Even I can`t guess in {} attempts.',
+        'attempts_7' : 'Bravo boss! {} attempts, a worthy result.',
+        'attempts_10' : 'More or less, {} attempts, but still congratulations!',
+        'troll_start' : 'Hey, dude! When did you get your IQ tested?',
+        'hood_troll' : 'This is a cool neighborhood, get lost!',
+        'shame' : '{} attempts, shame!',
+        'calling' : "We're calling your mom!",
+        'mom_answer' : "Your mom: Are you serious? I'll give him up right now.",
+        'quote' : 'You can always be thinner. Look Better. - P.Bateman',
+        'look' : 'LOOK BETTER',
+        'new_record' : 'Cool, Your new record is {} attempts better.',
+        'bad_record' : 'Bro, you were better last time. Your best was {}.',
+    }
+      
+}
