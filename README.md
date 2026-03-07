@@ -19,3 +19,7 @@ Clone the repo: git clone https://github.com
 Install dependencies: pip install art
 Run: python main.py
 
+## Hardware Log: Restoring my first PC
+Found an old ASUS P8H61-M LE. Planning to restore it for my Linux & C lab. 🐧🦾.
+
+
