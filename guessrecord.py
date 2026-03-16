@@ -33,3 +33,5 @@ def record_guess(name, attempts, current_record, lang):
     elif attempts > current_record:
         print(Translations [lang]['bad_record'].format(current_record))
         
+
+
