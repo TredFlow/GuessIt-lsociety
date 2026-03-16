@@ -8,6 +8,17 @@ def slow_print(text):
         sys.stdout.flush()
         time.sleep(0.05) 
     print()
+def level_status(level):
+    if level == 'easy':
+        return 50
+    elif level == 'normal':
+        return 100
+    elif level == 'hard':
+        return 500
+    elif level == 'impossible':
+        return 1000
+    else:
+        return 100   
 def messages(attempts, lang):
     if attempts == 1:
             slow_print(Translations [lang]['attempts_1'].format(attempts))
@@ -31,4 +42,3 @@ def messages(attempts, lang):
             tprint('HAHAHAHA')
             time.sleep(1)
             tprint('DONT CRY')
-
