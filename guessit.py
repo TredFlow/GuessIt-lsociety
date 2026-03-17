@@ -3,8 +3,8 @@ import time
 from modguess import slow_print, messages, tprint, level_status
 from guessrecord import record_check, record_guess
 from languess import Translations
-lang = input("Choose language / Выбери язык (en/ru): ").lower()
-if lang not in ['ru', 'en']: 
+lang = input("Choose language / Выбери язык (en/ru/uk/jp): ").lower()
+if lang not in ['ru', 'en', 'uk', 'jp']:
     lang = 'en' 
 name = input(Translations [lang]['name'])
 best_score = record_check()
