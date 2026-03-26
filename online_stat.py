@@ -1,8 +1,8 @@
 import requests
 
-FORM_URL_RECORD = "https://docs.google.com/forms/d/e/1FAIpQLSebD-x46-rfEkcfLgCBbdvsbpAqfIJ-vVGviiqWWY6hreNVEw/formResponse"
-ID_NAME = "entry.1334765194"
-ID_ATTEMPTS = "entry.2032124735"
+FORM_URL_RECORD = "https://docs.google.com"
+ID_NAME = "entry.1"
+ID_ATTEMPTS = "entry.2"
 
 def send_to_record(name, attempts):
     payload = {
